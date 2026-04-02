@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>华科慧创｜核心团队</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;
+      color:#fff;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(0,170,255,0.22), transparent 26%),
+        linear-gradient(180deg,#020817 0%,#04132a 42%,#061f46 72%,#020817 100%);
+    }
+    body::before{
+      content:"";position:fixed;inset:0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size:40px 40px;opacity:.18;pointer-events:none;
+    }
+    .wrap{width:92%;max-width:1200px;margin:auto;position:relative;z-index:1}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:54px;height:54px;border-radius:10px}
+    .brand h1{font-size:22px}
+    .menu{display:flex;gap:24px;flex-wrap:wrap}
+    .menu a{color:#cfe6ff;text-decoration:none}
+    .menu a:hover{color:#fff}
+    .section{
+      background:rgba(8,30,70,0.88);
+      border:1px solid rgba(120,180,255,0.2);
+      border-radius:22px;
+      padding:30px;
+      margin-bottom:22px;
+    }
+    .section h2{font-size:34px;margin-bottom:18px}
+    .person{
+      display:flex;flex-wrap:wrap;gap:30px;align-items:flex-start;
+    }
+    .person img{
+      width:300px;max-width:100%;
+      border-radius:14px;border:1px solid rgba(120,180,255,0.2);
+    }
+    .person-text{flex:1;min-width:260px}
+    .person-name{font-size:28px;margin-bottom:6px}
+    .person-sub{color:#9ac8ff;margin-bottom:14px;font-size:16px}
+    .person-text p{line-height:2;color:#eaf2ff;font-size:16px;margin-bottom:14px}
+    .quote{
+      margin-top:15px;padding:16px;border-left:4px solid #4da3ff;
+      background:rgba(255,255,255,0.05);border-radius:10px;line-height:1.9;
+    }
+    .footer{text-align:center;color:#8fbaff;font-size:14px;padding:20px 0 40px}
+    @media(max-width:900px){
+      .nav{flex-direction:column;align-items:flex-start;gap:16px}
+      .section h2{font-size:28px}
+      .person img{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">
+        <img src="标志.png" alt="华科慧创">
+        <h1>华科慧创</h1>
+      </div>
+      <div class="menu">
+        <a href="index.html">首页</a>
+        <a href="about.html">公司介绍</a>
+        <a href="project.html">项目介绍</a>
+        <a href="team.html">核心团队</a>
+        <a href="contact.html">联系我们</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>核心团队</h2>
+    </div>
+
+    <div class="section">
+      <div class="person">
+        <img src="王岑伟.png" alt="王岑伟">
+        <div class="person-text">
+          <div class="person-name">王岑伟</div>
+          <div class="person-sub">科技投资人 ｜ 人工智能与科技创新领域投资人</div>
+          <p>王岑伟长期关注人工智能与科技创新领域发展，持续推动技术创新与产业升级的融合，重视核心技术突破对产业发展的带动作用。</p>
+          <p>其投资方向涵盖人工智能、数字科技、新一代信息技术及智能制造等领域，通过资本与产业协同推动科技成果实现产业化落地，促进创新技术转化为现实生产力。</p>
+          <div class="quote">Long-term Value · Technology Driven · Industrial Synergy</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="person">
+        <img src="陈立武.png" alt="陈立武">
+        <div class="person-text">
+          <div class="person-name">陈立武</div>
+          <div class="person-sub">全球半导体与人工智能计算领域重要企业家</div>
+          <p>陈立武（Lip-Bu Tan）是全球半导体与人工智能计算领域的重要企业家，曾任Cadence CEO，并曾担任Intel董事会成员，在芯片设计与算力生态领域具有重要行业影响力。</p>
+          <p>他长期从事半导体技术、芯片架构及计算系统相关领域的研究与产业实践，在推动电子设计自动化与高性能计算发展方面具有丰富经验。</p>
+          <div class="quote">Advanced Computing · AI Infrastructure · Global Innovation</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 华科慧创</div>
+  </div>
+</body>
+</html>
