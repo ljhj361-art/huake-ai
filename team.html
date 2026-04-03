@@ -21,7 +21,7 @@
       background-size:40px 40px;opacity:.18;pointer-events:none;
     }
     .wrap{width:92%;max-width:1200px;margin:auto;position:relative;z-index:1}
-    .nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;flex-wrap:wrap}
     .brand{display:flex;align-items:center;gap:14px}
     .brand img{width:54px;height:54px;border-radius:10px}
     .brand h1{font-size:22px}
@@ -37,26 +37,45 @@
     }
     .section h2{font-size:34px;margin-bottom:18px}
     .person{
-      display:flex;flex-wrap:wrap;gap:30px;align-items:flex-start;
+      display:flex;
+      flex-wrap:wrap;
+      gap:30px;
+      align-items:flex-start;
     }
     .person img{
-      width:300px;max-width:100%;
-      border-radius:14px;border:1px solid rgba(120,180,255,0.2);
+      width:300px;
+      max-width:100%;
+      border-radius:14px;
+      border:1px solid rgba(120,180,255,0.2);
     }
-    .person-text{flex:1;min-width:260px}
-    .person-name{font-size:28px;margin-bottom:6px}
-    .person-sub{color:#9ac8ff;margin-bottom:14px;font-size:16px}
-    .person-text p{line-height:2;color:#eaf2ff;font-size:16px;margin-bottom:14px}
+    .person-text{
+      flex:1;
+      min-width:260px;
+    }
+    .person-name{
+      font-size:28px;
+      margin-bottom:6px;
+    }
+    .person-sub{
+      color:#9ac8ff;
+      margin-bottom:14px;
+      font-size:16px;
+    }
+    .person-text p{
+      line-height:2;
+      color:#eaf2ff;
+      font-size:16px;
+      margin-bottom:14px;
+    }
     .quote{
-      margin-top:15px;padding:16px;border-left:4px solid #4da3ff;
-      background:rgba(255,255,255,0.05);border-radius:10px;line-height:1.9;
+      margin-top:15px;
+      padding:16px;
+      border-left:4px solid #4da3ff;
+      background:rgba(255,255,255,0.05);
+      border-radius:10px;
+      line-height:1.9;
     }
     .footer{text-align:center;color:#8fbaff;font-size:14px;padding:20px 0 40px}
-    @media(max-width:900px){
-      .nav{flex-direction:column;align-items:flex-start;gap:16px}
-      .section h2{font-size:28px}
-      .person img{width:100%}
-    }
   </style>
 </head>
 <body>
@@ -86,7 +105,7 @@
           <div class="person-name">王岑伟</div>
           <div class="person-sub">科技投资人 ｜ 人工智能与科技创新领域投资人</div>
           <p>王岑伟长期关注人工智能与科技创新领域发展，持续推动技术创新与产业升级的融合，重视核心技术突破对产业发展的带动作用。</p>
-          <p>其投资方向涵盖人工智能、数字科技、新一代信息技术及智能制造等领域，通过资本与产业协同推动科技成果实现产业化落地，促进创新技术转化为现实生产力。</p>
+          <p>其投资方向涵盖人工智能、数字科技、新一代信息技术及智能制造等领域，通过资本与产业协同推动科技成果实现产业化落地。</p>
           <div class="quote">Long-term Value · Technology Driven · Industrial Synergy</div>
         </div>
       </div>
