@@ -21,7 +21,7 @@
       background-size:40px 40px;opacity:.18;pointer-events:none;
     }
     .wrap{width:92%;max-width:1200px;margin:auto;position:relative;z-index:1}
-    .nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;flex-wrap:wrap}
     .brand{display:flex;align-items:center;gap:14px}
     .brand img{width:54px;height:54px;border-radius:10px}
     .brand h1{font-size:22px}
@@ -42,15 +42,14 @@
     .card{
       background:rgba(255,255,255,0.03);
       border:1px solid rgba(120,180,255,0.12);
-      border-radius:16px;padding:20px;
+      border-radius:16px;
+      padding:20px;
     }
     .card h4{color:#9fd0ff;font-size:20px;margin-bottom:10px}
     .card p{margin:0}
     .footer{text-align:center;color:#8fbaff;font-size:14px;padding:20px 0 40px}
     @media(max-width:900px){
-      .nav{flex-direction:column;align-items:flex-start;gap:16px}
       .grid{grid-template-columns:1fr}
-      .section h2{font-size:28px}
     }
   </style>
 </head>
@@ -71,36 +70,60 @@
     </div>
 
     <div class="section">
-      <h2>国家智能战略工程</h2>
-      <p>华科慧创围绕“芯片—半导体—算力—应用”构建一体化人工智能产业生态体系，强化关键核心技术自主能力，推动产业链安全与可持续发展。</p>
-    </div>
+      <h2>项目介绍（正式版）</h2>
 
-    <div class="section">
-      <h3>战略结构</h3>
+      <h3>项目定位</h3>
+      <p>华科慧创致力于打造以人工智能核心技术为驱动的科技创新平台，围绕大模型技术、智能算力及产业智能化应用，构建具有持续创新能力与产业转化能力的科技体系。</p>
+      <p>项目聚焦新一代人工智能技术在实体产业中的深度融合，推动人工智能从技术突破走向产业落地，实现技术价值与商业价值的协同增长。通过构建自主可控的技术能力与产业生态体系，华科慧创持续强化企业核心竞争力，提升科技成果转化效率，形成稳定且可持续的发展模式。</p>
+
+      <h3>技术方向</h3>
+      <p>华科慧创以人工智能大模型为核心，围绕智能算法、数据系统及算力平台，建立完整的技术架构，推动关键技术的持续迭代升级。</p>
+      <div class="grid">
+        <div class="card"><h4>方向一</h4><p>大模型技术与行业应用模型开发</p></div>
+        <div class="card"><h4>方向二</h4><p>智能算力与算法优化</p></div>
+        <div class="card"><h4>方向三</h4><p>数据智能与智能决策系统</p></div>
+        <div class="card"><h4>方向四</h4><p>企业级人工智能解决方案</p></div>
+        <div class="card"><h4>方向五</h4><p>行业数字化与智能化升级</p></div>
+      </div>
+      <p style="margin-top:14px;">通过持续技术研发与技术积累，构建具备长期发展能力的技术体系，为产业应用提供稳定支撑。</p>
+
+      <h3>产业布局</h3>
+      <p>华科慧创以产业应用为核心导向，推动人工智能技术在多个领域实现规模化应用，形成技术与产业协同发展的生态结构。</p>
+      <div class="grid">
+        <div class="card"><h4>布局一</h4><p>智能制造与工业智能化</p></div>
+        <div class="card"><h4>布局二</h4><p>企业数字化升级解决方案</p></div>
+        <div class="card"><h4>布局三</h4><p>智能数据平台与决策系统</p></div>
+        <div class="card"><h4>布局四</h4><p>AI技术服务与行业模型应用</p></div>
+        <div class="card"><h4>布局五</h4><p>智能系统集成与技术服务平台</p></div>
+      </div>
+      <p style="margin-top:14px;">通过整合技术资源与产业资源，构建具备扩展能力的产业生态体系，实现技术价值的持续释放。</p>
+
+      <h3>造血能力（核心商业模式）</h3>
+      <p>华科慧创以技术驱动为基础，构建多维度收入结构，形成具备长期稳定性的“造血能力”，确保企业具备持续发展与自我成长能力。</p>
       <div class="grid">
         <div class="card">
-          <h4>芯片与半导体</h4>
-          <p>推进关键核心技术突破，提升国产化能力，夯实智能时代基础能力。</p>
+          <h4>技术服务收入</h4>
+          <p>通过为企业提供人工智能技术解决方案、行业模型开发及系统集成服务，形成稳定的技术服务收入来源。</p>
         </div>
         <div class="card">
-          <h4>智能算力</h4>
-          <p>建设高效、安全、可持续的智能计算基础设施，支撑大模型发展。</p>
+          <h4>平台化产品收入</h4>
+          <p>构建人工智能应用平台与数据平台，通过标准化产品输出，提高商业化效率，实现规模化复制能力。</p>
         </div>
         <div class="card">
-          <h4>产业应用</h4>
-          <p>推动人工智能在智慧城市、智能制造、生物科技、数字经济等领域落地。</p>
+          <h4>行业解决方案收入</h4>
+          <p>面向不同产业场景提供定制化智能解决方案，形成长期合作关系，增强企业持续盈利能力。</p>
         </div>
         <div class="card">
-          <h4>开放协同</h4>
-          <p>促进科研机构、科技企业及产业资源协同创新，构建开放共创平台。</p>
+          <h4>技术授权与合作收入</h4>
+          <p>通过技术授权、联合研发及产业合作模式，拓展商业边界，实现多元化收入结构。</p>
         </div>
       </div>
-    </div>
+      <p style="margin-top:14px;">通过多层次收入结构，华科慧创逐步建立稳定的现金流体系，提升企业长期发展能力。</p>
 
-    <div class="section">
       <h3>发展目标</h3>
-      <p>发布千亿参数级多模态人工智能模型，推动人工智能技术在更多产业场景实现深度应用，提升科技创新对经济社会发展的支撑能力。</p>
-      <p>通过长期技术积累与产业协同，助力中国智能科技不断迈向更高水平，为实现中华民族伟大复兴提供坚实科技支撑。</p>
+      <p>华科慧创以推动人工智能技术产业化为核心目标，通过持续技术创新与产业协同发展，构建具有国际竞争力的智能科技体系。</p>
+      <p>未来将持续加强核心技术研发能力、产业应用落地能力、科技成果转化能力、企业持续造血能力与智能科技生态构建能力。</p>
+      <p>通过技术、产业与资本的协同发展，推动人工智能技术在更广泛领域实现应用，为科技进步与产业升级创造长期价值。</p>
     </div>
 
     <div class="footer">© 2026 华科慧创</div>
