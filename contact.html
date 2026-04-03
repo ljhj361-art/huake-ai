@@ -21,7 +21,7 @@
       background-size:40px 40px;opacity:.18;pointer-events:none;
     }
     .wrap{width:92%;max-width:1200px;margin:auto;position:relative;z-index:1}
-    .nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;flex-wrap:wrap}
     .brand{display:flex;align-items:center;gap:14px}
     .brand img{width:54px;height:54px;border-radius:10px}
     .brand h1{font-size:22px}
@@ -37,18 +37,17 @@
     }
     .section h2{font-size:34px;margin-bottom:18px}
     .section p{line-height:2;color:#eaf2ff;font-size:16px;margin-bottom:14px}
-    .contact-list{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-    .item{
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+    .card{
       background:rgba(255,255,255,0.04);
       border:1px solid rgba(120,180,255,0.12);
-      border-radius:16px;padding:20px;
+      border-radius:16px;
+      padding:20px;
     }
-    .item h3{color:#9fd0ff;margin-bottom:10px}
+    .card h3{color:#9fd0ff;margin-bottom:10px}
     .footer{text-align:center;color:#8fbaff;font-size:14px;padding:20px 0 40px}
     @media(max-width:900px){
-      .nav{flex-direction:column;align-items:flex-start;gap:16px}
-      .contact-list{grid-template-columns:1fr}
-      .section h2{font-size:28px}
+      .grid{grid-template-columns:1fr}
     }
   </style>
 </head>
@@ -72,20 +71,20 @@
       <h2>联系我们</h2>
       <p>欢迎洽谈产业合作、项目投资、技术交流与战略协同。</p>
 
-      <div class="contact-list">
-        <div class="item">
+      <div class="grid">
+        <div class="card">
           <h3>公司名称</h3>
           <p>华科慧创</p>
         </div>
-        <div class="item">
+        <div class="card">
           <h3>联系邮箱</h3>
           <p>contact@huake.com</p>
         </div>
-        <div class="item">
+        <div class="card">
           <h3>联系电话</h3>
           <p>+86 000-0000-0000</p>
         </div>
-        <div class="item">
+        <div class="card">
           <h3>联系地址</h3>
           <p>中国 · 香港 / 中国内地</p>
         </div>
